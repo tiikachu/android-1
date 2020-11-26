@@ -613,7 +613,6 @@ public class ReceiveExternalFilesActivity extends FileActivity
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.main_menu, menu);
-        menu.findItem(R.id.action_sync_account).setVisible(false);
         mMainMenu = menu;
         return true;
     }
