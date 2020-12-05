@@ -37,4 +37,7 @@ jobs:
       - name: Send Push Notification
         # You may pin to the exact commit or the version.
         # uses: techulus/push-github-action@d5f9f046ccf106b807d5a38822b4d0d83748cb5a
-        uses: techulus/push-github-action@1.0.0
+        uses: techulus/push-github-action@1.0.0        
+        env:
+          API_KEY: $6619d68f-a57b-4ac0-96d4-cbe479708266
+          MESSAGE: "Hey, tiikachu, there is a new build!"
